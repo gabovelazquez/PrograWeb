@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.menu {
+    width: auto;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+.img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.img>img {
+    width: 100%;
+}
+
+h2 {
+    padding: 40px;
+    text-align: center;
+}
+
+.formulario {
+    width: 50%;
+    position: relative;
+    left: 20%;
+    border-style: groove;
+    border-color: gray;
+    margin: 50px;
+    padding: 25px;
+}
+
+.formulario>h3 {
+    position: relative;
+    text-align: left;
+    top: -48px;
+}
+
+#infop {
+    background-color: white;
+    width: 180px;
+    padding: 7px;
+}
+
+#info {
+    background-color: white;
+    width: 235px;
+    padding: 7px;
+}
+
+#contac {
+    background-color: white;
+    width: 80px;
+    padding: 7px;
+}
+
+.formulario>input,
+textarea {
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.r>input {
+    padding: 5px;
+    margin: 15px;
+}
+
+.formulario>button {
+    padding: 5px;
+    background-color: rgb(7, 160, 27);
+    color: white;
+    width: 90px;
+    height: 45px;
+}
+
+.pie {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    color: white;
+    padding-top: 25px;
+}
+
+.pie>p {
+    position: absolute;
+    right: 20px;
+    padding-right: 40px;
+}
+
+.menu2 {
+    position: sticky;
+    padding-left: 40px;
+}
+
+.menu2>a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}

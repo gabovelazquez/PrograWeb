@@ -1,0 +1,32 @@
+.head {
+    background-image: url(../img/header.jpg);
+    height: 100vh;
+    min-height: 600px;
+    background-position: 0;
+}
+
+.encabezado {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 85vh;
+    left: 100px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 60px;
+    top: 30px;
+}
