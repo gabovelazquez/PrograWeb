@@ -12,6 +12,7 @@ padding: 1rem;
 
 .grid > div:hover {
 border:1px solid #f1c40f;
+  border: 1px solid black;
 }
 .element1{
   grid-column: 1/4;
