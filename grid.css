@@ -8,11 +8,11 @@
 .grid > div {
 background :#ecf0f1;
 padding: 1rem;
+ border: 1px solid black;
 }
 
 .grid > div:hover {
 border:1px solid #f1c40f;
-  border: 1px solid black;
 }
 .element1{
   grid-column: 1/4;
