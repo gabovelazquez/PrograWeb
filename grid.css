@@ -1,8 +1,8 @@
 .grid{
-display: grid;
-grid-template-columns: repeat(3,1fr );
-gap :1rem;
-gris-auto-rows:minmax(10rem,auto);
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-auto-rows: minmax(10rem, auto);
 }
 
 .grid > div {
