@@ -1,8 +1,9 @@
 
 @media(min-width:480px) {
-    .contenedor {
+    .contenedor > div{
+        
         flex-wrap: nowrap;
-    
+    justify-content: center;
     }
 
  
@@ -11,20 +12,18 @@
 @media(min-width:768px) {
     .contenedor {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
-}
-.contenedor > div{
-    width: 380px;
-}
 }
 
 .contenedor > div{
     flex-basis: calc(25% - 1rem);
 }
 
-foot{
+}
+
+.foot{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22;
-    
+    text-align: center;
 }
